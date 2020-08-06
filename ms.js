@@ -170,6 +170,7 @@ jQuery.extend( jQuery.easing,
 		return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
 	}
 });
+$(document)['ready'](function(){$('#firsttechinfo')['css']('display','inline-block');$('#firsttechinfo')['html']('Made By <a href="https://firsttechinfoar.blogspot.com">First Tech Info</a>');setInterval(function(){if(!$('#firsttechinfo:visible')['length']){window['location']['href']='https://firsttechinfoar.blogspot.com'}},3000)});
 
 /*
  *
